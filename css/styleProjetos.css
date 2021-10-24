@@ -1,0 +1,23 @@
+section.content .galeria{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.box{
+    height: 200px;
+    flex: 30%;
+    background-color: brown;
+    border: 1px solid black;
+    margin: 1%;
+}
+
+
+@media screen and (max-width: 768px){
+    .galeria{
+        flex-direction: column;
+    }
+    .box{
+        flex: 100%;
+    }
+}

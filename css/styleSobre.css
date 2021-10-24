@@ -1,0 +1,53 @@
+section.content h2{
+    font-size: 34pt;
+    margin-top: 22%;
+}
+
+section.content h3{
+    padding: 2% 0;
+    font-size: 18pt;
+}
+
+section.content h4{
+    font-size: 16pt;
+    font-weight: 500;
+    padding-bottom: 2%;
+}
+
+section.content h5{
+    font-size: 14pt;
+}
+
+section.content p{
+    margin-top: 1%;
+    margin-right: 2%;
+    font-size: 60pt;
+    display: inline-block;
+}
+
+@media screen and (max-width: 900px){
+    section.content{
+        text-align: center;
+    }
+    section.content h2{
+        margin-top: 30%;
+    }
+    section.content h3{
+        padding-top: 3%;
+    }
+    section.content h4{
+        padding-top: 3%;
+    }
+    section.content h5{
+        padding: 2% 0;
+    }
+}
+
+@media screen and (max-width: 768px){
+    section.content h2{
+        margin-top: 40%;
+    }
+    .container{
+        padding: 0 8%;
+    }
+}
